@@ -2,9 +2,9 @@
 A Tool for Mass Uploading Infowars Videos
 
 **Tool Name**: InfoCannon  
-**Source Code**: https://github.com/PatriotDevOps/InfoCannon-Web 
-**Language**: jQuery, HTML5, JavaScript 
-**Use Case**: Mass upload Infowars show archives and Special Reports into Facebook daily. For use on personal newsfeed or public page. 
+**Source Code**: https://github.com/PatriotDevOps/InfoCannon-Web  
+**Language**: jQuery, HTML5, JavaScript  
+**Use Case**: Mass upload Infowars show archives and Special Reports into Facebook daily. For use on personal newsfeed or public page.  
 
 **Configuration Directions**:  
 1. Go to [developers.facebook.com](https://developers.facebook.com) and Create a Facebook App. 
