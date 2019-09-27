@@ -1,0 +1,104 @@
+.strip1 {
+    background-color:white !important; 
+}
+
+.strip2 {
+    background-color:lightcyan !important;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form section
+{
+    display:flex;
+    height: 500px;
+}
+
+.form label {
+    width:300px;
+}
+
+.form .section {
+    display:flex;
+    align-items: flex-start;
+}
+
+.form label, .form input, 
+.form button, .form select, .form > div > div {
+    margin-bottom:10px;
+}
+
+#btnTest{
+    margin-left:10px;
+    min-width: 120px;
+}
+
+.form select {
+    min-width: 150px;
+}
+
+#vodlist {
+    text-align: center;
+    margin-right: 130px;
+}
+
+#videodate
+{
+    margin-right: 155px;
+    min-width: 130px;
+}
+
+.pageid_section button {
+    min-width: 120px;
+    margin-left:10px;
+}
+
+tr  {
+    cursor: pointer;
+}
+
+.videos_div {
+    /* max-width: 90%; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    clear: both;
+    padding-top:10px;
+}
+
+#lstVideos_wrapper {
+    padding-top: 10px;
+}
+
+.getsection{
+    clear: left;
+    text-align: center;
+}
+
+.getsection button {
+    float: none;
+}
+
+table.dataTable tr th.select-checkbox::after {
+    content: "Select All";
+    margin-top: -11px;
+    margin-left: -4px;
+    cursor: pointer;
+    text-align: center;
+
+
+
+    
+    /* text-shadow: rgb(176, 190, 217) 1px 1px, rgb(176, 190, 217) -1px -1px, rgb(176, 190, 217) 1px -1px, rgb(176, 190, 217) -1px 1px; */
+}
+
+table.dataTable tr th.select-checkbox.selected::after {
+    content: "Unselect All";    /*"✔";*/
+    margin-top: -11px;
+    margin-left: -4px;
+    cursor: pointer;
+    text-align: center;
+    /* text-shadow: rgb(176, 190, 217) 1px 1px, rgb(176, 190, 217) -1px -1px, rgb(176, 190, 217) 1px -1px, rgb(176, 190, 217) -1px 1px; */
+}

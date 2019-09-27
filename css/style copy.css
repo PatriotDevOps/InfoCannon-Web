@@ -1,0 +1,80 @@
+.strip1 {
+    background-color:white !important; 
+}
+
+.strip2 {
+    background-color:lightcyan !important;
+}
+
+.form {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+
+}
+
+.videos_div {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    padding-top:10px;
+}
+
+.form label {
+    float: left;
+    clear:left;
+    width:300px;
+    text-align: right;
+    margin-right:10px;
+
+}
+
+.form label, .form input, 
+.form button, .form select, .form > div > div {
+    float: left;
+    margin-bottom:10px;
+}
+
+.form > div > div button{
+    clear:left;
+}
+
+.form button{
+    margin-left:10px;
+}
+
+.getsection{
+    clear: left;
+}
+
+.getsection button {
+    float: none;
+}
+
+
+/* .form > div {
+    display:flex;
+} */
+
+
+.form select {
+    min-width: 150px;
+}
+
+.accesskey_section button {
+    display:inline;
+}
+
+.pageid_section select {
+
+
+}
+
+.pageid_section button {
+    display:inline;    
+}
